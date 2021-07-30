@@ -4,7 +4,7 @@
 
 
 [![MIT Licensed](https://img.shields.io/github/license/jracevedob/RLNC_MPSoC)](https://github.com/jracevedob/RLNC_MPSoC/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/github/checks-status/jracevedob/RLNC_MPSoC/main)](https://github.com//jracevedob/RLNC_MPSoC/actions)
+[![Build Status](https://github.com//jracevedob/RLNC_MPSoC/actions/workflows/blank.yml/badge.svg)](https://github.com//jracevedob/RLNC_MPSoC/actions)
 [![Documentation Status](https://readthedocs.org/projects/graphriccicurvature/badge/?version=latest)](https://github.com/jracevedob/RLNC_MPSoC/wiki)
 [![Github All Releases](https://img.shields.io/github/downloads/jracevedob/RLNC_MPSoC/total.svg)]()
 
