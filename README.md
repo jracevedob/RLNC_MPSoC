@@ -34,23 +34,24 @@ Some examples about the simulation of different modulation schemes is provided
 
 
 ## Citations
+
+Currently, we are working in the writing of a publication where we are going to condense all the results and findings of this project. The ethernet communication is under development following this reference:
+
 We are going to be really content and encouraged if you can cite our scientific works in your own publications 
 and distribute our works among your research collaborators and colleagues.
 
 ```
-@incollection{ACEVEDO2020413,
-title = {Chapter 26 - Integrating software-defined radios},
-editor = {Frank H.P. Fitzek and Fabrizio Granelli and Patrick Seeling},
-booktitle = {Computing in Communication Networks},
-publisher = {Academic Press},
-pages = {413-427},
-year = {2020},
-isbn = {978-0-12-820488-7},
-doi = {https://doi.org/10.1016/B978-0-12-820488-7.00042-6},
-url = {https://www.sciencedirect.com/science/article/pii/B9780128204887000426},
-author = {Javier Acevedo and Marian Ulbricht and Dongho You},
-keywords = {Wireless communications, Software-defined radio, Universal software radio peripheral},
-abstract = {In this chapter, we extend the emulator ComNetsEmu used throughout the book by implementing foundational wireless communication applications using Software-Defined Radio (SDR) devices, particularly Universal Software Radio Peripherals (USRPs). After an introduction of SDR and some common implmentations, we provide practical hands-on examples. Through a bridge network located between two Docker containers and the emulator, two basic applications are flashed into the SDR hardware to transfer data using OFDM modulation. This deployment allows us to demonstrate how softwarization leverages the integration of emerging and current technologies applied to communication networks.}
+@Article{Acevedo2021,
+AUTHOR = {Acevedo, Javier and Sabouri, Shahryar  and Shen, Shiwei and Dietrich, Marco and Kambiz, Jamshidi and Fitzek, Frank H. P. },
+TITLE = {Blink: Ultrafast Optical Ethernet Communication using Multi-processor System-on-Chip},
+JOURNAL = {Electronics},
+VOLUME = {},
+YEAR = {2021},
+NUMBER = {},
+ARTICLE-NUMBER = {180},
+URL = {},
+ISSN = {},
+ABSTRACT = {}
 }
 ```
 
@@ -59,23 +60,28 @@ abstract = {In this chapter, we extend the emulator ComNetsEmu used throughout t
 This project exists thanks to all people who contribute.
 The [list](./CONTRIBUTORS) of all contributors.
 
-## References
-
-### Internet sources
-https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD_and_GNU_Radio)_on_Linux
-
-### Academic and industry sources
+Please refer to the following [Link](https://de.fast-zwanzig20.de/) to get access to more detailed information about the project.
 
 ## Contact
 
 * **Javier Acevedo** - *Contributor and Project Maintainer* javier.acevedo@tu-dresden.de
 
-
 ## License
 
 This project is licensed under the [MIT license](./LICENSE).
 
+## Documentation
+
+### Networking
+Vendor documentation [Link](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/862912682/Networking+in+QEMU)
+
+### Hardware-Software Codesign
+
+### Driver integration
+
 ## News
 
-* **Hardware acceleration** - *Through RFSoC, we accelerate the execution of the GNU Radio modules*
+* **09.08.2021** - *First release of the fastOptics repository*
+* **10.08.2021** - *Hardware modules for the communication between the PS and PL released*
+* **14.08.2021** - *Hardware-Software integration*
 
