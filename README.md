@@ -13,6 +13,7 @@ This directory contains the source code for implementing Random Linear Network C
 
 
 ## Overview
+The acceleration of matrix multiplication kernels has received plenty of attention from the architecture, optimization, and 
 
 # Table of Contents
 
@@ -82,6 +83,7 @@ Vendor documentation [Link](https://xilinx-wiki.atlassian.net/wiki/spaces/A/page
 * **10.08.2021** - *Integration of OpenCL C++ code for RLNC with the Multi-processor System-on-Chip*
 * **14.08.2021** - *Software development of the RLNC-kodo library*
 * **10.02.2022** - *Migration to private repository for testing.*
+* **10.02.2022** - *Submission of final report to the funding comittee*
 
 
 ## Acknowledgement
